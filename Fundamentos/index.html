@@ -1,47 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
-            <a href="index.html" >Home</a> 
+            <a href="index.html">Home</a>
             <!--  target="_blank" -->
         </li>
         <li>
-            <a href="contato.html" >Contato</a> 
+            <a href="contato.html">Contato</a>
             <!--  target="_blank" -->
         </li>
+        
     </ul>
+    <hr>
 
-    <h1>Sobre o Felipe</h1>
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, iusto cumque dolorem vitae distinctio molestiae? Perferendis excepturi, iusto doloribus omnis accusantium voluptatum saepe numquam incidunt illum nisi quia possimus ipsa!
-    </p>
+    <h1 class="inform">Sobre o Felipe</h1>
 
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis accusantium provident praesentium, minima recusandae possimus velit quia temporibus accusamus perspiciatis veniam, hic nulla officia qui placeat, et molestias veritatis unde!
-    </p>
+    <div class="container">
+        <div>
+            <img class="br-50 wh" src="../assets/img/eu.jpeg" alt="Foto do criador desse conteudo">
+        </div>
 
-    <img src="/assets/img/eu.jpeg" width="300" height="450" alt="Foto do criador desse conteudo">
+        <div class="p1">
+            <p >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, iusto cumque dolorem vitae distinctio
+                molestiae? Perferendis excepturi, iusto doloribus omnis accusantium voluptatum saepe numquam incidunt
+                illum nisi quia possimus ipsa!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis id, illo saepe suscipit voluptatibus culpa necessitatibus dolores molestiae quia! Exercitationem tempore ad voluptatem iste sunt in maxime rem suscipit.
+            </p>
 
-    <h2>Ultimo video assistido</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis accusantium provident praesentium, minima
+                recusandae possimus velit quia temporibus accusamus perspiciatis veniam, hic nulla officia qui placeat,
+                et molestias veritatis unde!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis in culpa earum recusandae, molestiae dolore soluta illo. Cumque deleniti maxime quisquam totam id dolorem nam provident. Praesentium, veritatis. Sunt, alias?
+            </p>
+        </div>
 
-    <iframe 
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/IyeIqjVc9CM" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
-    
-    
+    </div>
+
+    <h2 class="inform">Ultimo video assistido</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IyeIqjVc9CM" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+         </iframe>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/felipe-freire-949967172/" target="_blank">
+                <img class="tm-social" src="../assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/FelipeFFS93/" target="_blank">
+                <img class="tm-social" src="../assets/img/github.png" alt="Logo do GitHub">
+            </a>
+            <a href="https://www.instagram.com/_aquelemenino/" target="_blank">
+                <img class="tm-social" src="../assets/img/instagram.png" alt="Logo do Instagram">
+           </a>
+            
+        </div>
+
+        <p class="inform">
+       Todos os direitos reservados: Felipe Freire &copy;
+        </p>
+    </footer>
+
+
 </body>
+
 </html>
