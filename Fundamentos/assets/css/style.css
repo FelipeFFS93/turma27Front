@@ -17,6 +17,8 @@
     align-items: center;
 }
 
+
+
 #menu li {
     display: inline;
     padding: 15px;
@@ -34,19 +36,19 @@
 }
 
 .br-50 {
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 .wh{
     width: 300px;
-    height: 300px;
+    height: 400px;
     padding: 30px;
 }
 
 .tm-social {
-   width: 50px;
-   height: 50px;
-   padding: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
 }
 
 .mb-50{
